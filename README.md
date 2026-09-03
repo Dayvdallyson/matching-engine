@@ -1,4 +1,3 @@
-cat > README.md << 'EOF'
 # matching-engine
 
 A low-latency matching engine / order book written in Go, built incrementally
