@@ -1,0 +1,36 @@
+cat > .gitignore << 'EOF'
+# Binaries
+/bin/
+/dist/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+matching-engine
+
+# Test & coverage output
+*.test
+*.out
+coverage.*
+profile.*
+
+# Profiling artifacts (pprof)
+*.prof
+*.pprof
+cpu.prof
+mem.prof
+
+# Benchmark output
+*.bench
+
+# Go workspace
+go.work
+go.work.sum
+
+# Editor / OS
+.idea/
+.vscode/
+*.swp
+.DS_Store
+EOF
